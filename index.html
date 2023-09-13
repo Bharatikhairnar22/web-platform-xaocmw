@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Weight Converter</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Weight Converter</h1>
+      <div class="converter">
+        <input type="number" id="inputWeight" placeholder="Enter weight..." />
+        <select id="fromUnit">
+          <option value="kg">Kilograms (kg)</option>
+          <option value="lb">Pounds (lb)</option>
+          <option value="oz">Ounces (oz)</option>
+        </select>
+        <p>Converts to</p>
+        <select id="toUnit">
+          <option value="kg">Kilograms (kg)</option>
+          <option value="lb">Pounds (lb)</option>
+          <option value="oz">Ounces (oz)</option>
+        </select>
+        <button id="convertButton">Convert</button>
+      </div>
+      <div class="result">
+        <p id="outputWeight"></p>
+      </div>
+    </div>
+    <script src="style.js"></script>
+  </body>
+</html>
